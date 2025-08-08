@@ -1,0 +1,40 @@
+# Siemens TIA Portal .gitignore for professional portfolios
+# Last updated: 2025-08-08
+
+# General temp files
+*.lck
+*.sub
+*.tmp
+*.bak
+*.~*
+
+# TIA Portal generated folders that should NOT be in version control
+/Logs/
+/IM/
+/GMC/
+/TR_Data/
+/Dialogs/
+/Trace/
+/pe/
+/local/
+
+# Project-specific temp and user folders seen in user screenshot
+/TMP/
+/UserFiles/
+/Vci/
+/XRef/
+
+# User-specific settings
+/UserSettings/
+
+# Backups and Archives (should be stored separately)
+*.zap*
+*.backup.*
+
+# TIA Openness intermediate files
+/obj/
+/bin/
+
+# Version Control Interface (VCI) specific files
+/vci-storage/
+.vci-managed
